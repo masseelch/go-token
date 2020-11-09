@@ -1,4 +1,4 @@
-package go_token
+package token
 
 import (
 	"crypto/rand"

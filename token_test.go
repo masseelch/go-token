@@ -1,4 +1,4 @@
-package go_token
+package token
 
 import (
 	"github.com/stretchr/testify/assert"
