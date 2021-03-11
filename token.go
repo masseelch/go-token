@@ -53,3 +53,12 @@ func GenerateToken(l int) (Token, error) {
 	t, err := generateRandomString(l)
 	return Token(t), err
 }
+
+func MustGenerateToken(l int) Token {
+	t, err := generateRandomString(l)
+	if err != nil {
+		panic(err)
+	}
+
+	return Token(t)
+}
